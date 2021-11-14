@@ -361,7 +361,6 @@ export default function useSpeechToText({
         setPictogramas(result[0].opciones);
         console.log(pictogramas);
         }
-
       }
   };
 
@@ -377,4 +376,19 @@ export default function useSpeechToText({
     startSpeechToText,
     stopSpeechToText
   };
+}
+
+const msg = new SpeechSynthesisUtterance();
+const voices = window.speechSynthesis.getVoices();
+msg.voice = voices[2];
+msg.volume = 1;
+msg.rate = 10;
+msg.pitch = 2;
+msg.lang = 'es-MX';
+
+export const reproducirMensaje=(item:any)=>{
+  if(item && item.desc){
+    msg.text = item.desc;
+    speechSynthesis.speak(msg);
+  }
 }

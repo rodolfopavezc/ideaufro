@@ -1,7 +1,7 @@
 // @ts-ignore
 import React from 'react';
 import {Container, Row, Col, Button, Alert, Spinner, Card} from "react-bootstrap";
-import useSpeechToText, { ResultType, PictogramasList } from './Hooks';
+import useSpeechToText, { ResultType, PictogramasList, reproducirMensaje } from './Hooks';
 
 // @ts-ignore
 import micIcon from "./mic.svg";
@@ -72,7 +72,7 @@ export default function App() {
           <Row>
               {pictogramas && (pictogramas as PictogramasList[]).map((result) => (
                       <Col md={{ span: 2, offset: 1 }}>
-                          <Card style={{ width: '18rem' }}>
+                          <Card style={{ width: '18rem' }} onClick={() => {reproducirMensaje(result)}}>
                           <Card.Img variant="top" src={`/images/jugo.jpeg`} />
                           <Card.Body>
                             <Card.Title>{result.title}</Card.Title>
