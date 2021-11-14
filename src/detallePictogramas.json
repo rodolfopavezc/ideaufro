@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "intent": "Querer",
+      "opciones": [
+        {
+          "imagen": "jugo.jpeg",
+          "title": "qqq",
+          "desc": "No"
+        },
+        {
+          "imagen": "jugo.jpeg",
+          "title": "qqq",
+          "desc": "Si, tengo hambre"
+        }
+        ,
+        {
+          "imagen": "jugo.jpeg",
+          "title": "qqq",
+          "desc": "Si, tengo calor"
+        },
+        {
+          "imagen": "jugo.jpeg",
+          "title": "qqq",
+          "desc": "Si, tengo sed"
+        }
+      ]
+    },
+    {
+      "intent": "sed",
+      "opciones": [
+        {
+          "imagen": "agua.jpeg",
+          "title": "agua",
+          "desc": "Quiero agua"
+        },
+        {
+          "imagen": "jugo.jpeg",
+          "title": "jugo",
+          "desc": "Quiero jugo"
+        },
+        {
+          "imagen": "bebida.jpeg",
+          "title": "bebida",
+          "desc": "Quiero bebida"
+        }
+      ]
+    },
+    {
+      "intent": "frutas",
+      "opciones": [
+        {
+          "imagen": "frutilla.jpeg",
+          "title": "frutilla",
+          "desc": "Frutilla"
+        },
+        {
+          "imagen": "jugo.jpeg",
+          "title": "qqq",
+          "desc": "Manzana"
+        },
+        {
+          "imagen": "jugo.jpeg",
+          "title": "qqq",
+          "desc": "Naranja"
+        }
+      ]
+    }
+  ]
+}
