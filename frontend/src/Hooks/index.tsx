@@ -38,7 +38,7 @@ export type ResultType = {
 };
 
 export type PictogramasList = {
-  imagen: string;
+  image: string;
   title: string;
   desc: string;
 }
@@ -352,7 +352,6 @@ export default function useSpeechToText({
       setSentence('');
       if(mensaje.toLowerCase().includes('nico ')){
         const query = mensaje.toLowerCase().split('nico ').pop() || '';
-        console.log(query);
         setSentence(query);
         setLoading(true);
         axios.post(`${server}/api/agent/text-input?message=${query}`, {})

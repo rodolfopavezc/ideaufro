@@ -71,9 +71,9 @@ export default function App() {
           </Row>
           <Row>
               {sentence && pictogramas && (pictogramas as PictogramasList[]).map((result) => (
-                      <Col md={{ span: 2, offset: 1 }}>
-                          <Card style={{ width: '18rem' }} onClick={() => {reproducirMensaje(result)}}>
-                          <Card.Img variant="top" src={`/images/jugo.jpeg`} />
+                      <Col md={{ span: 2}}>
+                          <Card onClick={() => {reproducirMensaje(result)}}>
+                          <Card.Img variant="top" height={'178px'} src={`/images/${result.image}`} />
                           <Card.Body>
                             <Card.Title>{result.title}</Card.Title>
                             <Card.Subtitle>

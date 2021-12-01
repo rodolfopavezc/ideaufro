@@ -1,65 +1,114 @@
 {
-  "data": [
-    {
-      "intent": "estado_animico_familiar",
-      "opciones": [
-        {
-          "imagen": "jugo.jpeg",
-          "title": "Esta bien",
-          "desc": "Esta bien"
-        },
-        {
-          "imagen": "jugo.jpeg",
-          "title": "Esta mal",
-          "desc": "Esta mal"
-        }
-        ,
-        {
-          "imagen": "jugo.jpeg",
-          "title": "No lo sé",
-          "desc": "No lo sé"
-        }
-      ]
-    },
-    {
-      "intent": "estado_animico_personal",
-      "opciones": [
-        {
-          "imagen": "agua.jpeg",
-          "title": "Estoy bien",
-          "desc": "Estoy bien"
-        },
-        {
-          "imagen": "jugo.jpeg",
-          "title": "Estoy aburrido",
-          "desc": "Estoy aburrido"
-        },
-        {
-          "imagen": "bebida.jpeg",
-          "title": "Estoy mal",
-          "desc": "Estoy mal"
-        }
-      ]
-    },
-    {
-      "intent": "origen",
-      "opciones": [
-        {
-          "imagen": "frutilla.jpeg",
-          "title": "En una casa",
-          "desc": "En una casa"
-        },
-        {
-          "imagen": "jugo.jpeg",
-          "title": "En un departamento",
-          "desc": "En un departamento"
-        },
-        {
-          "imagen": "jugo.jpeg",
-          "title": "En el campo",
-          "desc": "En el campo"
-        }
-      ]
-    }
-  ]
-}
+    "data": [
+      {
+        "intent": "saludo",
+        "opciones": [
+          {
+            "image": "hola.jpg",
+            "title": "¡Hola!",
+            "desc": "¡Hola!"
+          },
+          {
+            "image": "chao.jpg",
+            "title": "Chao, ¡Cuidate!",
+            "desc": "Chao, ¡Cuidate!"
+          }          
+        ]
+      }, 
+      {
+        "intent": "noentiendo",
+        "opciones": [
+          {
+            "image": ".jpg",
+            "title": "Estoy bien",
+            "desc": "Esa pregunta no está disponible, haz otra o inténtalo de nuevo"
+          }
+        ]
+      },
+      {
+        "intent": "comoestas",
+        "opciones": [
+          {
+            "image": "bien.jpg",
+            "title": "Bien",
+            "desc": "Bien ¿y tú?"
+          },
+          {
+            "image": "masomenos.jpg",
+            "title": "Más o menos",
+            "desc": "Estoy más o menos, ¿y tu?"
+          },
+          {
+            "image": "mal.jpg",
+            "title": "Estoy mal",
+            "desc": "Estoy mal."
+          }
+        ]
+      },
+      {
+        "intent": "ayuda",
+        "opciones": [
+          {
+            "image": "necesitoayuda.jpg",
+            "title": "Sí",
+            "desc": "Necesito ayuda"
+          },
+          {
+            "image": "nonecesitoayuda.jpg",
+            "title": "No",
+            "desc": "No necesito ayuda"
+          }
+        ]
+      },
+      {
+        "intent": "sed",
+        "opciones": [
+          {
+            "image": "jugo.jpg",
+            "title": "Jugo",
+            "desc": "Quiero jugo por favor."
+          },
+          {
+            "image": "kem.jpg",
+            "title": "Kem",
+            "desc": "Quiero bebida Kem por favor."
+          },
+          {
+            "image": "cocacola.jpg",
+            "title": "Coca-Cola",
+            "desc": "Quiero bebida coca-cola por favor."
+          },
+          {
+            "image": "bilz.jpg",
+            "title": "Bilz",
+            "desc": "Quiero bebida Bilz por favor."
+          },
+          {
+            "image": "agua.jpg",
+            "title": "Agua",
+            "desc": "Quiero Agua por favor."
+          }
+        ]
+      },
+      {
+        "intent": "siono",
+        "opciones": [
+          {
+            "image": "si.jpg",
+            "title": "Si",
+            "desc": "Si"
+          },
+          {
+            "image": "no.jpg",
+            "title": "No",
+            "desc": "No."
+          },
+          {
+            "image": "nose.jpg",
+            "title": "No sé 🤷‍♂️",
+            "desc": "No sé."
+          }            
+        ]
+      }
+    ]
+  }
